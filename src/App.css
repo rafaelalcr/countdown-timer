@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  background-color: gainsboro;
+}
+
+header h1 {
+  font-size: 70px;
+  font-weight: 600;
+  background-image: linear-gradient(to right, #553c9a 45%, #ee4b2b);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.select-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  margin-right: 2rem;
+}
+
+#hour {
+  border: none;
+  border-top-left-radius: 1rem;
+  border-bottom-left-radius: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+#minute {
+  border: none;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+#second {
+  border: none;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.submit {
+  background-image: linear-gradient(to right, #553c9a 45%, #ee4b2b);
+  color: white;
+  align-items: center;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+
+.show-time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.show-time h3:first-child {
+  margin-left: -5rem;
+}
+
+.time {
+  border: 0.3rem solid white;
+  border-radius: 2rem;
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.reset {
+  background-image: linear-gradient(to right, #553c9a 45%, #ee4b2b);
+  color: white;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 2rem;
+  padding: 1rem 2rem 1rem 2rem;
+  cursor: pointer;
+}
